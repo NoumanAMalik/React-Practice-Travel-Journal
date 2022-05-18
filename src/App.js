@@ -1,9 +1,18 @@
-import { faEarthAfrica } from "@fortawesome/free-solid-svg-icons";
+import Card from "./Card";
+import data from "./data";
+import { faEarthAmerica } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// console.table(data);
 
 const App = () => {
     return (
         <>
-            <h1 className="font-bold">Hello Is This Working</h1>
+            <header>
+                <FontAwesomeIcon icon={faEarthAmerica} />
+                <p>my travel journal.</p>
+            </header>
+            <Card />
         </>
     );
 };
