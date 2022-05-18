@@ -1,3 +1,5 @@
+import { faEarthAfrica } from "@fortawesome/free-solid-svg-icons";
+
 const App = () => {
     return (
         <>
