@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Practice-Travel-Journal/static/css/main.c77b6f82.css",
+    "main.js": "/React-Practice-Travel-Journal/static/js/main.d43785fe.js",
+    "index.html": "/React-Practice-Travel-Journal/index.html",
+    "main.c77b6f82.css.map": "/React-Practice-Travel-Journal/static/css/main.c77b6f82.css.map",
+    "main.d43785fe.js.map": "/React-Practice-Travel-Journal/static/js/main.d43785fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c77b6f82.css",
+    "static/js/main.d43785fe.js"
+  ]
+}
