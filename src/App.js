@@ -1,12 +1,16 @@
 import Card from "./Card";
 import data from "./data";
 
-// console.table(data);
+console.log(data);
 
 const App = () => {
+    const cards = data.map((data) => {
+        return <Card key={data.id} {...data} />;
+    });
+
     return (
         <>
-            <header className="h-14 flex items-center justify-center gap-2">
+            <header className="h-14 flex items-center justify-center gap-2 text-white bg-[#F55A5A] font-medium text-sm">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6"
@@ -23,7 +27,9 @@ const App = () => {
                 </svg>
                 <p> my travel journal.</p>
             </header>
-            <Card />
+            <div className="flex flex-col items-center justify-center gap-4 mt-6">
+                {cards}
+            </div>
         </>
     );
 };
